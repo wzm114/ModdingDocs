@@ -32,9 +32,9 @@ namespace MyFirstMod
         }
         public void OnHeroUpdate()
         {
-           if(Input.GetKeyDown(KeyCode.O))
+           if(Input.GetKeyDown(KeyCode.AlphaO))
            {
-               Log("Key Pressed")
+               Log("Key Pressed");
            }
         }
     }
